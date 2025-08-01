@@ -27,7 +27,7 @@ A comprehensive library of beautiful, production-ready email templates built wit
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/your-username/react-email-templates.git
+git clone https://github.com/fahadali503/react-email-templates.git
 cd react-email-templates
 ```
 
@@ -388,16 +388,17 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🆘 Support
 
 - **Documentation**: [React Email Docs](https://react.email/docs)
-- **Issues**: [GitHub Issues](https://github.com/your-username/react-email-templates/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-username/react-email-templates/discussions)
+- **Issues**: [GitHub Issues](https://github.com/fahadali503/react-email-templates/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/fahadali503/react-email-templates/discussions)
 - **Email**: support@your-domain.com
 
 ## 🙏 Acknowledgments
 
+- **Fahad Ali** - Project creator and maintainer
 - **React Email Team** - For creating the amazing React Email framework
 - **ShadCN** - For the beautiful UI components
 - **Community Contributors** - For submitting templates and improvements
 
 ---
 
-Built with ❤️ by the React Email Templates team
+Built with ❤️ by Fahad Ali and the React Email Templates team

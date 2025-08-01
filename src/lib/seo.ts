@@ -3,7 +3,7 @@ import { getTemplateById, getCategoryById } from './templates';
 
 export function generateTemplateMetadata(templateId: string): Metadata {
     const template = getTemplateById(templateId);
-    
+
     if (!template) {
         return {
             title: 'Template Not Found',
@@ -13,7 +13,7 @@ export function generateTemplateMetadata(templateId: string): Metadata {
 
     const category = getCategoryById(template.category);
     const templateUrl = `https://react-email-templates.com/template/${template.id}`;
-    
+
     return {
         title: template.title,
         description: template.description,
@@ -49,7 +49,7 @@ export function generateTemplateMetadata(templateId: string): Metadata {
             canonical: templateUrl,
         },
         other: {
-            'article:published_time': template.createdAt || new Date().toISOString(),
+            'article:published_time': new Date().toISOString(),
             'article:author': template.author || 'React Email Templates Team',
             'article:section': category?.name || 'Email Templates',
         },
@@ -58,7 +58,7 @@ export function generateTemplateMetadata(templateId: string): Metadata {
 
 export function generateCategoryMetadata(categoryId: string): Metadata {
     const category = getCategoryById(categoryId);
-    
+
     if (!category) {
         return {
             title: 'Category Not Found',
@@ -67,7 +67,7 @@ export function generateCategoryMetadata(categoryId: string): Metadata {
     }
 
     const categoryUrl = `https://react-email-templates.com/category/${category.id}`;
-    
+
     return {
         title: `${category.name} Email Templates`,
         description: `${category.description} Browse our collection of ${category.name.toLowerCase()} email templates. All templates are free and ready to use with React Email.`,
@@ -107,7 +107,7 @@ export function generateCategoryMetadata(categoryId: string): Metadata {
 
 export function generateStructuredData(template: any) {
     const category = getCategoryById(template.category);
-    
+
     return {
         "@context": "https://schema.org",
         "@type": "SoftwareApplication",
@@ -133,7 +133,7 @@ export function generateStructuredData(template: any) {
         },
         "genre": category?.name || "Email Template",
         "keywords": template.tags.join(", "),
-        "datePublished": template.createdAt || new Date().toISOString(),
+        "datePublished": new Date().toISOString(),
         "softwareVersion": "1.0",
         "downloadUrl": `https://react-email-templates.com/api/template-code?templateId=${template.id}`,
         "screenshot": `https://react-email-templates.com/images/templates/${template.id}-preview.png`

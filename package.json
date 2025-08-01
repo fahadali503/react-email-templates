@@ -2,6 +2,11 @@
   "name": "react-email-templates",
   "version": "0.1.0",
   "private": true,
+  "author": "Fahad Ali <fahada094@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fahadali503/react-email-templates"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

@@ -358,28 +358,6 @@ We welcome contributions! Here's how you can help:
 - [ ] Description is clear and helpful
 - [ ] Author information is included
 
-## 📋 Roadmap
-
-### Phase 1 (Current) ✅
-- [x] Basic template library
-- [x] Category organization
-- [x] Search and filtering
-- [x] Copy to clipboard functionality
-- [x] Open source template collection
-
-### Phase 2 (Next)
-- [ ] Live email preview rendering
-- [ ] Template thumbnails
-- [ ] User accounts and favorites
-- [ ] Template rating system
-- [ ] Advanced search filters
-
-### Phase 3 (Future)
-- [ ] Template builder/editor
-- [ ] Email testing tools
-- [ ] Team collaboration features
-- [ ] API for programmatic access
-- [ ] Integration with email services
 
 ## 📄 License
 
@@ -390,7 +368,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Documentation**: [React Email Docs](https://react.email/docs)
 - **Issues**: [GitHub Issues](https://github.com/fahadali503/react-email-templates/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/fahadali503/react-email-templates/discussions)
-- **Email**: support@your-domain.com
+- **Email**: fahada094@gmail.com
 
 ## 🙏 Acknowledgments
 
